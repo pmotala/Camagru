@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Skin-Side-Up-White-Seamless-Texutre-For-Website-Background.jpg);
+    background-size: 30vw auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*MENU*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 15vw;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    font-size: 15px;
+    margin: auto;
+    width: 15vw/3;
+    position: relative;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.heading {
+    background-color: rgba(51, 51, 51, 0.753);
+    text-align: center;
+    color: white;
+}
+
+.menu_container {
+    position: relative;
+    width: 100vw;
+    background-color: #333;
+}
+
+.menu {
+    position: relative;
+    width: 15vw;
+    background: green; 
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Tahoma;
+}
+
+.login-form {
+    width: 40vw;
+    margin: auto;
+    padding: 2%;
+    margin-top: 20vh;
+    background: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.login-form input{
+    width: 100%;
+    height: 20px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: right;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .res-container {
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    .res-container {
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    .image {
+        flex: 1 auto;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .comments-container {
+        flex: 1 20%;
+        width: 100vw;
+        margin: 0;
+        height: 300px;
+    }
+
+    .footer {
+        text-align: center;
+    }    
+
+}
+
+@media screen and (max-width: 900px) {
+    .res-container {
+        max-width: 100vw;
+        flex-direction: column;
+        margin: 20px 5px;
+    }
+
+    .image {
+        flex: 1 auto;
+    }
+
+    .comments-container {
+        flex: 1;
+        height: 200px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+    
+    ul {
+        flex-direction: row;
+    }
+
+    li a {
+        font-size: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #comment_text {
+        width: 99%;
+    }
+
+    .comments::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+        border-radius: 6px;
+    }
+    
+    .comments::-webkit-scrollbar-thumb {
+        border-radius: 6px;
+        box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .res-container {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    #comment_text {
+        width: 98%;
+    }
+}

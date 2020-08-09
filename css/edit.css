@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Skin-Side-Up-White-Seamless-Texutre-For-Website-Background.jpg);
+    background-size: 30vw auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: Tahoma, Verdana, Geneva;
+    font-size: 20px; 
+}
+
+.edits {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.edit_container {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.edit_image {
+    flex: 90%;
+    width: 100%;
+}
+
+.edit_image img {
+    width: 100%;
+    height: auto;
+}
+
+.result {
+    width: 150px;
+    height: auto;
+}
+
+.edit_form {
+    flex: 10%;
+}
+
+.edit_form input{
+    width: 100%;
+}
+
+
+.paginate {
+    width: 100vw;
+    height: 30px;
+    background-color: rgba(4, 4, 24, 0.534);
+}
+
+.pages {
+    overflow-x: auto;
+    width: 40%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.page_number {
+    font-size: 28px;
+    color: white;
+    position: relative;
+}

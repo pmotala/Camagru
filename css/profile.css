@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Skin-Side-Up-White-Seamless-Texutre-For-Website-Background.jpg);
+    background-size: 30vw auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: Tahoma, Verdana, Geneva;
+    font-size: 20px; 
+}
+
+
+/*MENU*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 10vw;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    font-size: 15px;
+    margin: auto;
+    width: 10vw/2;
+    position: relative;
+    font-family: Tahoma;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.heading {
+    background-color: rgba(51, 51, 51, 0.753);
+    text-align: center;
+    color: white;
+}
+
+.menu_container {
+    position: relative;
+    width: 100vw;
+    background-color: #333;
+}
+
+.menu {
+    position: relative;
+    width: 10vw;
+    margin: auto;
+}
+
+.menu-settings {
+    position: relative;
+    width: 50vw;
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+}
+
+.menu_li {
+    font-size: 15px;
+    margin: auto;
+    width: 20vw;
+    height: 30px;
+    position: relative;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Tahoma;
+}
+
+.login-form {
+    width: 40vw;
+    margin: auto;
+    padding: 2%;
+    margin-top: 20vh;
+    background: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.login-form input{
+    width: 100%;
+    height: 20px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: right;
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .intro {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+    
+    ul {
+        flex-direction: row;
+    }
+
+    li a {
+        font-size: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+}

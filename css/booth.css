@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Skin-Side-Up-White-Seamless-Texutre-For-Website-Background.jpg);
+    background-size: 30vw auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*MENU*/
+h1 {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 25vw;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    font-size: 15px;
+    margin: auto;
+    width: 25vw/3;
+    position: relative;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.heading {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    width: 100vw;
+}
+
+.menu_container {
+    position: relative;
+    width: 100vw;
+    background-color: #333;
+}
+
+.menu {
+    position: relative;
+    width: 25vw;
+    background: green; 
+    margin: auto;
+}
+
+h1 {
+    font-family: Tahoma;
+}
+
+
+.comments::scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.comments::scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/*BOOTH*/
+.booth {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+    .upload_form {
+        flex: 1;
+        background: rgb(202, 202, 230);
+        padding: 10px;
+        text-align: center;
+        height: 1000px;
+    }
+
+    .photo_area {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .webcam {
+            flex: 1;
+        }
+
+        .takesnap_button {
+            flex: 1;
+            height: 40px;
+        }
+
+        .canvas_area {
+            flex: 1;
+        }
+
+/*STICKERS*/
+.cc-selector {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    width: 100px;
+}
+
+.cc-selector input{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.none {
+    background-image: url(http://www.designsbybethann.com/pictures/Flowers/none%20flowers.jpg);
+    background-size: auto 200px;
+}
+
+.balloons {
+    background-image: url(http://www.pngmart.com/files/1/Balloons-PNG-Free-Download.png);
+    background-size: auto 200px;
+}
+
+.groot {
+    background-image: url(https://img00.deviantart.net/bfc1/i/2017/280/c/f/baby_groot_1___transparent_by_captain_kingsman16-dbpt2qy.png);
+    background-size: auto 100px;
+}
+
+.dice {
+    background-image: url(https://i1.wp.com/www.mpt-barsuraube.fr/wp-content/uploads/2017/10/dice.png);
+    background-size: auto 100px;
+}
+
+.apple {
+    background-image: url(http://iconbug.com/data/cd/256/831cb32d8d85448b87fc70d3a2e58ff3.png);
+    background-size: auto 100px;
+}
+
+.cc-selector input:active +.sticker-cc{opacity: .9;}
+.cc-selector input:checked +.sticker-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+
+.sticker-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.sticker-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+#comment {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    word-wrap: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+}
+
+#title {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    word-wrap: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#takesnap {
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.videoslot {
+    height: 480px; 
+}
+
+.edit_frame {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.edit_frame, iframe{
+    width: 100vw;
+    height: 400px;
+}
+
+.edit_frame, iframe{
+    width: 100vw;
+    height: 400px;
+}
+
+.footer {
+    text-align: right;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .booth {
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .videoslot {
+        width: 100%;
+        height: auto;
+    }
+
+    .canvas_area {
+        width: 100%;
+        height: auto;
+    }
+
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .intro {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+    
+    ul {
+        flex-direction: row;
+    }
+
+    li a {
+        font-size: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .edit_frame, iframe{
+        width: 100vw;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .intro {
+        font-size: 15px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+}
