@@ -32,13 +32,14 @@ A social type web application that is similar to Instagram,  which allows users 
 - Navigate to: https://github.com/pmotala/Camagru
 - Click "Code/Download Zip" or simply clone it with Git.
 - Once you have downloaded the source code navigate to the folder you downloaded the repo into
+- Go into the projects config/database.php file and enter your database credentials
 
 ### How to run the program
 - Open XAMPP
 - Click on the start button for "Apache"
 - Click on the start button for "MySQL"
 - Open a web browser of your choosing
-- Type the following in your search bar "http://localhost/camagru/"
+- Type the following in your search bar "http://localhost/Camagru/"
 - Hit submit, and the website Camagru should appear.
 - Select login if an account exists or signup if a new account is required.
 
