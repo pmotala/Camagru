@@ -60,23 +60,53 @@ A social type web application that is similar to Instagram,  which allows users 
     - phpMyAdmin
 
 ## Tests that I ran
-- Project Design Checks
+- Project Expectations:
+    - https://github.com/pmotala/Camagru/blob/master/docs/camagru.markingsheet.pdf
+
+- Project Design Checks:
     - Back end must be made entirely in PHP, no other frameworks should be present.
     - Front end Technology should be HTML, CSS and Javascript.
 
-- Initialization
+- Initialization:
     - Starting the webserver.
     - Running the setup script
         Outcome:
         - A new Camagru database should be created and accessible on myphpadmin.
 
--  Operation Tests
+-  Operation Tests:
     - Create Account
+        Outcome:
+        - Should check for valid email
+        - Should test for password strength
+        - Should create account
+        - should send Authentication Email
     - Authentication
+        Outcome:
+        - Email should be sent
+        - Authenatication should determine ability to login
     - Login
+        Ouctome:
+        - Check for account confirmation/authentication
+        - Log user in
+        - Allow for reset password (Forgot Password)
     - Homepage
+        Outcome:
+        - Work with both logged in users and none logged in users.
+        - Provide seperation between the two types of users
+        - Give access to the entire applications functionality when logged in
+        - Show all posted images
     - Change Account Settings
+        Outcomes:
+        - Display settings that affect the personal preferences of the user
     - Start Webcam
+        Outcomes:
+        - Display a view of your webcam
     - Capture Image
+        Outcome:
+        - Display a view of your captured image
     - Uplaod Image
+        Outcome:
+        - User should be able to upload an image stored locally
     - Add Filter
+        Outcome:
+        - Ability to merge an image with a filter.
