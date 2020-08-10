@@ -58,3 +58,25 @@ A social type web application that is similar to Instagram,  which allows users 
 - Database management systems
     - MySQL
     - phpMyAdmin
+
+## Tests that I ran
+- Project Design Checks
+    - Back end must be made entirely in PHP, no other frameworks should be present.
+    - Front end Technology should be HTML, CSS and Javascript.
+
+- Initialization
+    - Starting the webserver.
+    - Running the setup script
+        Outcome:
+        - A new Camagru database should be created and accessible on myphpadmin.
+
+-  Operation Tests
+    - Create Account
+    - Authentication
+    - Login
+    - Homepage
+    - Change Account Settings
+    - Start Webcam
+    - Capture Image
+    - Uplaod Image
+    - Add Filter
